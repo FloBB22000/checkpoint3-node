@@ -1,7 +1,7 @@
 {
   "name": "checkpoint-3-node-2021-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Disclaimer",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test jest",
@@ -31,12 +31,25 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3"
   },
   "lint-staged": {
     "src/**/*.{js,json}": [
       "./node_modules/.bin/eslint --max-warnings=5",
       "pretty-quick --staged"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloBB22000/checkpoint3-node.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/FloBB22000/checkpoint3-node/issues"
+  },
+  "homepage": "https://github.com/FloBB22000/checkpoint3-node#readme"
 }
